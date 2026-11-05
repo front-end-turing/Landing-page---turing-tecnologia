@@ -1,0 +1,22 @@
+{
+  "appBrowserEntry": "_next/static/chunks/BuiyeF7b.js",
+  "appRouteManifest": "_next/static/chunks/SFcG4F4c.js",
+  "appClientReferenceChunks": {
+    "references": {
+      "63e293f3c2d9": 0,
+      "c1db73490cef": 1
+    },
+    "modules": [
+      {
+        "file": "_next/static/chunks/8EdCzpYA.js",
+        "imports": [],
+        "css": []
+      },
+      {
+        "file": "_next/static/chunks/BXrc86Kh.js",
+        "imports": [],
+        "css": []
+      }
+    ]
+  }
+}

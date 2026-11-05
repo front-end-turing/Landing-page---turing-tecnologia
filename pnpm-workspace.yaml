@@ -1,0 +1,12 @@
+# pnpm 11 interrompe o install quando um pacote tem script de build não
+# autorizado (ERR_PNPM_IGNORED_BUILDS). Era isso que quebrava o deploy.
+allowBuilds:
+  # Binário nativo usado pelo Vite/Webpack durante o build.
+  esbuild: true
+  # Dependência opcional do minimizador do Webpack; não usamos otimização de
+  # imagem no build, então o script de instalação não precisa rodar.
+  sharp: false
+
+# Força versões corrigidas de dependências transitivas (pnpm audit).
+overrides:
+  'fflate@<0.7.5': '^0.7.5'
